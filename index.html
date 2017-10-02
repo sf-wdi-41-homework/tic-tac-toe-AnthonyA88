@@ -10,9 +10,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
     <!-- link to custom stylesheet (always require after Bootstrap) -->
-    <link rel="stylesheet" href="/css/style.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
     <!-- jQuery from CDN -->
-
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
 
     <!-- link to custom javascript file (always require after external JS libraries) -->
 
@@ -34,16 +37,29 @@
 
           <!-- you can put rows inside of columns! -->
           <!-- Bootstrap subdivides these 'nested' rows into 12 columns, too! -->
-          <div class="row">
-            <div class="col-md-4 box">a</div>
-            <div class="col-md-4 box">a</div>
-            <div class="col-md-4 box">a</div>
+          <div class="row a">
+            <div id="a1" class="col-md-4 box"></div>
+            <div id="a2" class="col-md-4 box"></div>
+            <div id="a3" class="col-md-4 box"></div>
           </div>
-
-
-
+          <div class="row b">
+            <div id="b1" class="col-md-4 box"></div>
+            <div id="b2" class="col-md-4 box"></div>
+            <div id="b3" class="col-md-4 box"></div>
+          </div>
+            <div class="row c">
+              <div id="c1" class="col-md-4 box"></div>
+              <div id="c2" class="col-md-4 box"></div>
+              <div id="c3" class="col-md-4 box"></div>
+            </div>
+          <button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up"></i>Play Again</button>
+          <div class="Scoreboard">Scoreboard</div>
+          <span>Jim</span>
+          <span>Ties</span>
+          <span>Dwight</span>
         </div>
       </div>
     </div>
+    <script src="js/app.js"></script>
   </body>
 </html>
